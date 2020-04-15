@@ -2,8 +2,9 @@
 #include <cmath>
 using namespace std;
 double fun(double x,double y)
-{
-	return pow(pow(x,4)+pow(y,5),0.5);
+{	x=1;
+ 	y=1;
+	return x*y;
 }
 
 double DoubleIntegral(double lowBound1, double lowBound2, int n, double dy, double dx)
